@@ -1,0 +1,148 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKcAAACUCAMAAADBJsndAAAAA1BMVEUAAACnej3aAAAAL0lEQVR4nO3BMQEAAADCoPVPbQo/oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL4GYSAAASzSSgUAAAAASUVORK5CYII=");
+            background-repeat:no-repeat;
+                background-size:cover;
+        }
+        .v1{
+            border-left:5px dotted white;
+            height: 350px;
+            position:absolute;
+            margin-left:-3px;
+            left:50%;
+        }
+        
+        .d1{
+            color:azure;
+            font-size: 50px;
+            width: 3000px;
+            text-align: center;
+            }
+            .d1 hr{
+                margin-left:auto;
+                margin-right: auto;
+                width: 40%;
+            }
+            .left{
+                float:left;
+            }
+            .right{
+                float: right;
+            }
+
+        
+            .d2{
+                color:white;
+                font-size: 50px;
+                width: 3000px;
+                text-align: center;
+                }
+                .d2 hr{
+                    margin-left:auto;
+                    margin-right: auto;
+                    width: 40%;
+                }
+                .left{
+                    float:left;
+                }
+                .right{
+                    float: right;  
+                }
+                
+            </style>              
+</head>
+<body>
+    <table width="100%" >
+        <h1 align="center" style="color: yellow; font-size:90px;">Delicious</h1>
+       
+        <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqtHJSzFgr0jr3279EnFUkFMHDEareOwbP_w&usqp=CAU" width="30%" height="40%">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqXT1SxxJmfiXKduMjDCCYDWDKdBHLeFePaFtGoqGDMcgKgM5dWrrGG3BTS3Xq4UzZdPc&usqp=CAU" width="30%" height="40%">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuqxg2sbZh9DVDEW9lgChmIQQ2caenpWuH4A&usqp=CAU" width="40%" height="40%">
+    
+        <br><br><br>
+        <div class="d1">
+            <hr class="left">Special Pasta<hr class="right">
+        </div>
+        <br><br><br>
+            <tr  style="color: darkorange;  font-size: 30px;  text-align:start;">
+                <th>FOOD NAME</th>
+                <th >$12</th>
+                <th>FOOD NAME</th>
+                <th>$12</th>
+            </tr>
+            <tr style="color: white;font-size: 30px;text-align:center;">
+                <td colspan="2">Lorem ipsum Lorem ipsum Lorem ipsum lorem</td>
+                <td colspan="2">Lorem ipsum Lorem ipsum Lorem ipsum lorem</td>
+                
+            </tr>
+            
+            <tr style="color: darkorange;font-size: 30px;text-align:start;">
+                <th>FOOD NAME</th>
+                <th>$12</th>
+                <th>FOOD NAME</th>
+                <th>$12</th>
+                
+            </tr>
+            <tr style="color: white;font-size: 30px;text-align:center;">
+                <td colspan="2">Lorem ipsum Lorem ipsum Lorem ipsum lorem</td>
+                <td colspan="2">Lorem ipsum Lorem ipsum Lorem ipsum lorem</td>
+            </tr>
+            <tr style="color: darkorange;font-size: 30px;text-align:start;">
+                <th>FOOD NAME</th>
+                <th>$12</th>
+                <th>FOOD NAME</th>
+                <th>$12</th>
+            </tr>
+            <tr style="color: white;font-size: 30px;text-align:center;">
+                <td colspan="2">Lorem ipsum Lorem ipsum Lorem ipsum lorem</td>
+                <td colspan="2">Lorem ipsum Lorem ipsum Lorem ipsum lorem</td>
+            </tr>
+            <tr style="color: darkorange;font-size: 30px;text-align:start;">
+                <th>FOOD NAME</th>
+                <th>$12</th>
+                <th>FOOD NAME</th>
+                <th>$12</th>
+            </tr>
+            <tr style="color: white;font-size: 30px;text-align:center;">
+                <td colspan="2">Lorem ipsum Lorem ipsum Lorem ipsum lorem</td>
+                <td colspan="2">Lorem ipsum Lorem ipsum Lorem ipsum lorem</td>
+            </tr>
+            <tr>            
+             <div class="v1"></div> 
+            </tr>
+        </table>
+        <br><br><br>
+
+        <div class="d2">
+            <hr class="left">Recommended<hr class="right">
+        </div>
+        <table width="100%" height="5%">
+            <tr style="background-color: yellow;">
+
+      <th rowspan="2" align="right"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuqxg2sbZh9DVDEW9lgChmIQQ2caenpWuH4A&usqp=CAU" width="40%" height="80%"></th>
+       
+      <th rowspan="2" align="right" style="color: black;font-size:30px;">FOOD NAME</th> 
+            </tr>
+            <br><br>
+            <tr style="background-color: yellow;">
+
+                <td style="color: black; font-size:30px;">Lorem ipsum Lorem ipsum<br>
+                    Lorem ipsum lorem $12</td>
+    <th rowspan="2" align="end"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqXT1SxxJmfiXKduMjDCCYDWDKdBHLeFePaFtGoqGDMcgKgM5dWrrGG3BTS3Xq4UzZdPc&usqp=CAU" width="40%" height="40%"></th>
+        
+    <th rowspan="2" align="right"  style="color: black; font-size:30px">FOOD NAME</th>    
+                <td style="color: black; font-size:30px;">Lorem ipsum Lorem ipsum<br>
+                        Lorem ipsum lorem 12$ </td>
+                    
+             </tr>
+             </table>           
+        <div>
+            <h5  style="text-align: center;color:aliceblue;font-size: 50px;font-style:italic;">Good Food Good Mood</h5>
+        </div>
+    </body>
+    </html>
