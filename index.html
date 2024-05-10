@@ -2,113 +2,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form1</title>
+    <title>form2</title>
     <style>
-        table{
-          border-style: dashed;
-            background-color:176B87;
+        body{
+            background-color:06283D;
+            width: 100%;
         }
+        
     </style>
 </head>
+<center>
 <body>
-    <form>
-    <h2 style="text-align: center;">Student Registration Form Using Table in HTML</h3>
-        <table align="center" cellpadding = "10">
-        <tr>
-        <td>First Name</td>
-        <td><input type="text" name="FirstName">
-        </td>
-        </tr>
-        <tr>
-        <td>Last Name</td>
-        <td><input type="text" name="LastName">
-        </td>
-        </tr>
-        <tr>
-        <td>Email ID</td>
-        <td><input type="email" name="EmailID"></td>
-        </tr>
-        <tr>
-        <td>Mobile Number</td>
-        <td>
-        <input type="text" name="MobileNumber" >
-        </td>
-        </tr>
-        <tr>
-        <td>Gender</td>
-        <td>
-        <input type="radio" name="Gender" value="Male">
-        Male
-        <input type="radio" name="Gender" value="Female">
-        Female
-        </td>
-        </tr>
-        <tr>
-            <td>Address<br><br></td>
-            <td><textarea name="Address"></textarea></td>
-            </tr>
-            <tr>
-            <td>City</td>
-            <td><input type="text" name="City">
-            </td>
-            </tr>
-            <tr>
-            <td>State</td>
-            <td><input type="text" name="State">
-            </td>
-            </tr>
-            <tr>
-            <td>Country</td>
-            <td><input type="text" name="Country"/></td>
-            </tr>
-            <tr>
-            <td>Hobbies <br><br></td>
-            <td>
-            <input type="checkbox" id="Drawing" name="Drawing" value="Drawing" >
-            Drawing
-            <input type="checkbox"  id="Singing" name="Singing" value="Singing" >
-            Singing
-            <input type="checkbox"  id="Dancing" name="Dancing" value="Dancing" >
-            Dancing
-            <input type="checkbox"  id="Cooking" name="Cooking" value="Cooking" >
-            Sketching
-            <br>
-            <input type="checkbox" name="Other" value="Other">
-            Others
-            </td>
-            </tr>
-            <tr>
-            <td>Qualification <br><br></td>
-            <td>
-            <br>
-            <input type="radio" name="Graduation" value="Graduation"> Graduation(Bachelors)<br>
-            <input type="radio" name="PostGraduation" value="Post Graduation">Post Graduation(Masters)<br>
-            </td>
-            </tr>
-            <tr>
-            <td>Courses<br></td>
-            <select>
-            <td>
-            <input type="radio" id="CourseBCA" name="CourseBCA" value="BCA">
-            BCA(Bachelor of Computer Applications)<br>
-            <input type="radio" id="CourseBCom" name="CourseBCom" value="B.Com">
-            B.Com(Bachelor of Commerce)<br>
-            <input type="radio" id="CourseBSC" name="CourseBSc" value="B.Sc">
-            B.Sc(Bachelor of Science)<br>
-            <input type="radio" id="CourseBA" name="CourseBA" value="B.A">
-            BA(Bachelor of Arts)<br>
-            <input type="radio" id="CourseMCA" name="CourseMCA" value="MCA">
-            MCA(Master of Computer Applications)<br>
-            </td>
-            </tr>
-        </select>
-            <tr>
-            </td>
-            <tr>
-                <td><input type="Submit" >
-                    <input type="Reset" >
-            </tr>
-   </table>
- </form>
+        
+
+        <form>
+           <h3 style="text-align: left;color:black; width:100%; height:40px; background-color:orange;"> Sign up</h3>
+          <fieldset width="100%">
+            <label style="color: yellow;">First Name</label>
+            <input type="text" name="firstname" size="35"  placeholder="Firstname">
+            <br><br>
+            <label style="color: yellow;"> Lastname::</label>
+            <input type="text" id="lname" name="lastname" size="35"> 
+            <br><br>
+             <label style="color: yellow;">Screen name</label>
+             <input type="text" id="sname" name="sname" size="35">
+             <br><br>
+             <label style="color: yellow;"> Date of birth::</label>
+         <input type="month" size="15">
+        <input type="Number" style="width: 40px;" size="35">>
+       <input type="Number" max="2027" min="1992" size="35">>
+       <br><br>
+       <label    style="color: yellow;">Gender::</label>
+   <input type="radio" id="gender" name="gender" value="male"><b style="color: yellow;">Male</b>
+   <input type="radio" id="gender" name="gender" value="female"><b style="color: yellow;">Female</b>
+   <br><br>
+   <label style="color: yellow;">Country</label>
+   <input type="text" name="Country" size="35">
+   <br><br>
+   <label style="color: yellow;">Email::</label>
+   <input type="email" size="35">
+   <br><br>
+   <label style="color: yellow;">Phone</label>
+   <input type="text" name="Phone" size="35" >
+   <br><br>
+   <label style="color: yellow;">Password</label>
+   <input type="password" size="34">
+   <br><br>
+   <label style="color: yellow;">Confirm password</label>
+   <input type="password" size="33">
+   <br><br>
+   <input type="checkbox" size="35">
+    <label  style="color:yellow">I agree to the terms of Use</label>
+          </center>
+          <br><br>
+          <h1 width="100%" height="80px" style="background-color: orange; text-align:right;">
+          <input type="Submit" style="background-color:green;">
+           <input type="Reset" style="background-color:red;"></h1>
+        </fieldset>
+
+</form>
 </body>
 </html>
