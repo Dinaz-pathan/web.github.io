@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form1</title>
+    <style>
+        table{
+          border-style: dashed;
+            background-color:176B87;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <h2 style="text-align: center;">Student Registration Form Using Table in HTML</h3>
+        <table align="center" cellpadding = "10">
+        <tr>
+        <td>First Name</td>
+        <td><input type="text" name="FirstName">
+        </td>
+        </tr>
+        <tr>
+        <td>Last Name</td>
+        <td><input type="text" name="LastName">
+        </td>
+        </tr>
+        <tr>
+        <td>Email ID</td>
+        <td><input type="email" name="EmailID"></td>
+        </tr>
+        <tr>
+        <td>Mobile Number</td>
+        <td>
+        <input type="text" name="MobileNumber" >
+        </td>
+        </tr>
+        <tr>
+        <td>Gender</td>
+        <td>
+        <input type="radio" name="Gender" value="Male">
+        Male
+        <input type="radio" name="Gender" value="Female">
+        Female
+        </td>
+        </tr>
+        <tr>
+            <td>Address<br><br></td>
+            <td><textarea name="Address"></textarea></td>
+            </tr>
+            <tr>
+            <td>City</td>
+            <td><input type="text" name="City">
+            </td>
+            </tr>
+            <tr>
+            <td>State</td>
+            <td><input type="text" name="State">
+            </td>
+            </tr>
+            <tr>
+            <td>Country</td>
+            <td><input type="text" name="Country"/></td>
+            </tr>
+            <tr>
+            <td>Hobbies <br><br></td>
+            <td>
+            <input type="checkbox" id="Drawing" name="Drawing" value="Drawing" >
+            Drawing
+            <input type="checkbox"  id="Singing" name="Singing" value="Singing" >
+            Singing
+            <input type="checkbox"  id="Dancing" name="Dancing" value="Dancing" >
+            Dancing
+            <input type="checkbox"  id="Cooking" name="Cooking" value="Cooking" >
+            Sketching
+            <br>
+            <input type="checkbox" name="Other" value="Other">
+            Others
+            </td>
+            </tr>
+            <tr>
+            <td>Qualification <br><br></td>
+            <td>
+            <br>
+            <input type="radio" name="Graduation" value="Graduation"> Graduation(Bachelors)<br>
+            <input type="radio" name="PostGraduation" value="Post Graduation">Post Graduation(Masters)<br>
+            </td>
+            </tr>
+            <tr>
+            <td>Courses<br></td>
+            <select>
+            <td>
+            <input type="radio" id="CourseBCA" name="CourseBCA" value="BCA">
+            BCA(Bachelor of Computer Applications)<br>
+            <input type="radio" id="CourseBCom" name="CourseBCom" value="B.Com">
+            B.Com(Bachelor of Commerce)<br>
+            <input type="radio" id="CourseBSC" name="CourseBSc" value="B.Sc">
+            B.Sc(Bachelor of Science)<br>
+            <input type="radio" id="CourseBA" name="CourseBA" value="B.A">
+            BA(Bachelor of Arts)<br>
+            <input type="radio" id="CourseMCA" name="CourseMCA" value="MCA">
+            MCA(Master of Computer Applications)<br>
+            </td>
+            </tr>
+        </select>
+            <tr>
+            </td>
+            <tr>
+                <td><input type="Submit" >
+                    <input type="Reset" >
+            </tr>
+   </table>
+ </form>
+</body>
+</html>
